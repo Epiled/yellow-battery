@@ -1,0 +1,5 @@
+<svg id="Componente_2_2" data-name="Componente 2 – 2" xmlns="http://www.w3.org/2000/svg" width="50" height="40" viewBox="0 0 50 40">
+  <rect id="Retângulo_2" data-name="Retângulo 2" width="50" height="10" rx="5" fill="#deaf16"/>
+  <rect id="Retângulo_3" data-name="Retângulo 3" width="50" height="10" rx="5" transform="translate(0 15)" fill="#deaf16"/>
+  <rect id="Retângulo_4" data-name="Retângulo 4" width="50" height="10" rx="5" transform="translate(0 30)" fill="#deaf16"/>
+</svg>

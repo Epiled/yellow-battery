@@ -1,0 +1,10 @@
+.letter__botao{
+    color: var(--banda);
+    background-color: black;
+    border: 0;
+    width: 18rem;
+    height: 5rem;
+    display: block;
+    margin: 1rem auto 0 auto;
+    text-transform: uppercase;
+}

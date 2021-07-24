@@ -1,0 +1,9 @@
+.letter{
+    flex-direction: column;
+    padding: 3rem;
+    background-image: url(../../imgs/concerto.jpg);
+    background-size: cover;
+    position: relative;
+    align-items: center;
+}
+

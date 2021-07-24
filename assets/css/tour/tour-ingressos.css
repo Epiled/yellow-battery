@@ -1,0 +1,12 @@
+.tour__ingressos{
+    width: 38rem;
+}
+
+@media screen and (min-width: 834px){
+    .tour__ingressos{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: auto;
+    }
+}

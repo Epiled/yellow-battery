@@ -1,0 +1,15 @@
+.tour{
+    align-items: center;
+    flex-direction: column;
+    padding: 4rem 0 0 0;
+    background-color: black;
+    color: white;
+    box-sizing: content-box;
+}
+
+@media screen and (min-width: 834px){
+    .tour{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+}

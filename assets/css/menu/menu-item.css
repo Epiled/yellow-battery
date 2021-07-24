@@ -1,0 +1,14 @@
+.menu__item{
+    margin-bottom: 4rem;
+}
+
+.menu__item:last-child{
+    margin-bottom: 0;
+}
+
+@media screen and (min-width: 834px){
+    .menu__item{
+        margin-bottom: 0;
+        margin-left: 3rem;
+    }
+}

@@ -1,0 +1,11 @@
+.letter__campo{
+    background-color: rgba(0, 0, 0, 50%);
+    border-color: var(--banda);
+    display: block;
+    height: 5rem;
+    width: 100%;
+    font-size: 4rem;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+    border-style: solid;
+}

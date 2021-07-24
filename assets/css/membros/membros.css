@@ -1,0 +1,10 @@
+.membros{
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../../imgs/las-vegas.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-direction: column;
+    padding: 4rem 0;
+    position: relative;
+}

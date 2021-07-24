@@ -1,0 +1,8 @@
+.menu__icone{
+    width: 5rem;
+}
+
+.menu__icone--bateria{
+    width: 6rem;
+    transform: rotateZ(45deg);
+}

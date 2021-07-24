@@ -1,0 +1,44 @@
+:root{
+    font-size: 62.5%;
+    --menu__altura: 6.5rem;
+    --banda: rgb(222, 175, 22);
+    --banda--focus: rgba(222, 175, 22, 50%);
+}
+
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: black;
+}
+
+body{
+    max-width: 1920px;
+    background: white;
+    margin: auto;
+}
+
+.conteiner-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.visuallyhidden{
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: .1rem;
+    margin: -1rem;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: .1rem;
+}
+
+.overlay {
+    background-color: black;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    transition: 200ms all;
+  }

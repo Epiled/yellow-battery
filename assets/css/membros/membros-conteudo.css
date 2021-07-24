@@ -1,0 +1,20 @@
+.membros__conteudo{
+    z-index: 1;
+}
+
+@media screen and (min-width: 428px){
+    .membros__conteudo{
+        flex-direction: row;
+        z-index: 1;
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: baseline;
+    }
+}
+
+@media screen and (min-width: 1366px){
+    .membros__conteudo{
+        justify-content: space-between;
+    }
+}

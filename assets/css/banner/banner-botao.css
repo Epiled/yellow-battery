@@ -1,0 +1,12 @@
+.banner__botao{
+    background-color: rgba(242, 191, 25, 20%);
+    border-color: var(--banda);
+    border-style: solid;
+    border-radius: 100%;
+    height: 5rem;
+    width: 5rem;
+}
+
+.banner__botao:focus{
+    background-color: var(--banda--focus);
+}

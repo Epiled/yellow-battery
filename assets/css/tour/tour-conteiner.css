@@ -1,0 +1,30 @@
+.tour__conteiner{
+    align-items: center;
+    flex-direction: column;
+    max-height: 22.5rem;
+    box-sizing: border-box;
+    position: relative;
+    padding: 4rem;
+    justify-content: space-around;
+    background-size: cover;
+    background-position: bottom;
+    width: -webkit-fill-available;
+}
+
+.tour__conteiner--sp{
+    background-image: url(../../imgs/sao-paulo.jpg);
+}
+
+.tour__conteiner--rj{
+    background-image: url(../../imgs/rio-de-janeiro.jpg);
+}
+
+.tour__conteiner--bh{
+    background-image: url(../../imgs/bahia.jpg);
+}
+
+@media screen and (min-width: 1366px){
+    .tour__conteiner{
+        width: 50%;
+    }
+}

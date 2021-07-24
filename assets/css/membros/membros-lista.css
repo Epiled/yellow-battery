@@ -1,0 +1,7 @@
+.membros__lista{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    font-size: 3rem;
+    height: 12rem;
+}

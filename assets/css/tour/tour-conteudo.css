@@ -1,0 +1,12 @@
+.tour__conteudo{
+    z-index: 1;
+}
+
+@media screen and (min-width: 834px){
+    .tour__conteudo{
+        display: flex;
+        width: 100%;
+        min-height: 17rem;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,6 @@
+.menu{
+    background: #000;
+    height: var(--menu__altura);
+    padding: 0 1rem;
+}
+

@@ -1,0 +1,7 @@
+.tour__titulo{
+    margin-bottom: 4rem;
+    font-size: 4rem;
+    color: var(--banda);
+    text-align: center;
+    width: 100%;
+}
