@@ -1,6 +1,6 @@
 <h1 align="center">🟡 🥁 Yellow Battery 🥁 🟡</h1>
 
-<p>Site da Yellow Battery, criando com HTML5, CSS3, JS, PHP e MySQL, usando a técnica de mobile-first, 
+<p id="objetivo">Site da Yellow Battery, criando com HTML5, CSS3, JS, PHP e MySQL, usando a técnica de mobile-first, 
   o site é responsável e também possui um dashbord para atualizar certos dados da página como datas de shows</p>
 
 ![Badge](https://img.shields.io/github/last-commit/Epiled/yellow-battery?style=for-the-badge)
@@ -43,3 +43,16 @@ As seguintes tecnologias foram usadas na construção do projeto:
   <li><a href="https://www.php.net/" target="_blank">PHP</a></li>
   <li><a href="https://www.mysql.com/" target="_blank">MySQL</a></li>
 </ul>
+
+### Autor
+
+<a href="https://blog.rocketseat.com.br/author/thiago/">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/55258483?s=96&v=4" width="100px;" alt=""/>
+ <br />
+ <sub><b>Felipe Andrade</b></sub></a>
+
+
+Feito com ❤️ por Felipe De Andrade 👋🏽 Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Felipe-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fademendonca/)](https://www.linkedin.com/in/fademendonca/) 
+[![Gmail Badge](https://img.shields.io/badge/-felipedeandrademendonca@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:felipedeandrademendonca@gmail.com)](mailto:felipedeandrademendonca@gmail.com)
