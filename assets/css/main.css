@@ -2,6 +2,7 @@
     font-size: 62.5%;
     --menu__altura: 6.5rem;
     --banda: rgb(222, 175, 22);
+    --banda-escuro: rgb(129, 102, 12);
     --banda--focus: rgba(222, 175, 22, 50%);
 }
 

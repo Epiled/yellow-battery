@@ -33,9 +33,11 @@
     <link rel="stylesheet" href="assets/css/menu/menu-icone.css">
     <link rel="stylesheet" href="assets/css/menu/menu-lista.css">
     <link rel="stylesheet" href="assets/css/menu/menu-item.css">
+    <link rel="stylesheet" href="assets/css/menu/menu-link.css">
 
     <link rel="stylesheet" href="assets/css/rodape/rodape.css">
     <link rel="stylesheet" href="assets/css/rodape/rodape-copyright.css">
+    <link rel="stylesheet" href="assets/css/rodape/rodape-item.css">
     <link rel="stylesheet" href="assets/css/rodape/rodape-link.css">
     <link rel="stylesheet" href="assets/css/rodape/rodape-navegacao.css">
     <link rel="stylesheet" href="assets/css/rodape/rodape-social.css">
@@ -57,33 +59,36 @@
 
 </head>
 
-<body>
-
+<body id="home">
     <head>
         <nav class="conteiner-flex menu">
             <svg xmlns="http://www.w3.org/2000/svg" class="menu__icone menu__icone--bateria" viewBox="0 0 53.15 53.15">
                 <g id="variante-de-desenho-de-bateria" transform="translate(-5.305 29.672) rotate(-45)">
-                    <g id="Grupo_11" data-name="Grupo 11">
-                        <g id="Grupo_12" data-name="Grupo 12" transform="translate(0)">
-                            <path id="Caminho_2" data-name="Caminho 2"
-                                d="M.582,2.433.021,6.978A2.773,2.773,0,0,0,2.434,10.07l8.494,1.048A12.544,12.544,0,0,1,16.963,6.21l.213-1.728a2.774,2.774,0,0,0-2.413-3.093L3.674.021A2.773,2.773,0,0,0,.582,2.433Z"
-                                transform="translate(0 10.96)" fill="#deaf16" />
-                            <path id="Caminho_3" data-name="Caminho 3"
-                                d="M21.512,2.4,21.094.861l-2.514.757.413,1.515C12.145,5.22,6.963,7.452,7.177,8.265c.226.859,6.4-.194,13.842-2.352l.265.482a1.951,1.951,0,0,0,.141,3.56v.631l-3.286.406a2.774,2.774,0,0,0-2.413,3.092l.3,2.44a12.414,12.414,0,0,1,5.4,2.336v.9A11.762,11.762,0,0,0,3.495,34.266l-.259.295-.248.281L.447,37.729A1.792,1.792,0,1,0,3.138,40.1l2.068-2.349.233-.265.24-.273a11.73,11.73,0,0,0,16.379.1l.24.273.233.265L24.507,40.1A1.792,1.792,0,1,0,27.2,37.729l-2.42-2.75-.244-.278-.251-.286a11.727,11.727,0,0,0-1.107-12.854v-1.1l.092.1,7.2-.889a2.774,2.774,0,0,0,2.413-3.092l-.561-4.544A2.774,2.774,0,0,0,29.23,9.619l-6.054.747V9.621a1.961,1.961,0,0,0-.213-3.114L22.408,5.5C29.368,3.392,34.671,1.119,34.455.3S28.541.413,21.512,2.4Z"
-                                transform="translate(7.502 0)" fill="#deaf16" />
-                        </g>
-                    </g>
+                    <path id="Caminho_2" data-name="Caminho 2"
+                        d="M.582,2.433.021,6.978A2.773,2.773,0,0,0,2.434,10.07l8.494,1.048A12.544,12.544,0,0,1,16.963,6.21l.213-1.728a2.774,2.774,0,0,0-2.413-3.093L3.674.021A2.773,2.773,0,0,0,.582,2.433Z"
+                        transform="translate(0 10.96)" fill="#deaf16" />
+                    <path id="Caminho_3" data-name="Caminho 3"
+                        d="M21.512,2.4,21.094.861l-2.514.757.413,1.515C12.145,5.22,6.963,7.452,7.177,8.265c.226.859,6.4-.194,13.842-2.352l.265.482a1.951,1.951,0,0,0,.141,3.56v.631l-3.286.406a2.774,2.774,0,0,0-2.413,3.092l.3,2.44a12.414,12.414,0,0,1,5.4,2.336v.9A11.762,11.762,0,0,0,3.495,34.266l-.259.295-.248.281L.447,37.729A1.792,1.792,0,1,0,3.138,40.1l2.068-2.349.233-.265.24-.273a11.73,11.73,0,0,0,16.379.1l.24.273.233.265L24.507,40.1A1.792,1.792,0,1,0,27.2,37.729l-2.42-2.75-.244-.278-.251-.286a11.727,11.727,0,0,0-1.107-12.854v-1.1l.092.1,7.2-.889a2.774,2.774,0,0,0,2.413-3.092l-.561-4.544A2.774,2.774,0,0,0,29.23,9.619l-6.054.747V9.621a1.961,1.961,0,0,0-.213-3.114L22.408,5.5C29.368,3.392,34.671,1.119,34.455.3S28.541.413,21.512,2.4Z"
+                        transform="translate(7.502 0)" fill="#deaf16" />
                 </g>
             </svg>
 
             <ul class="menu__lista" data-menuLista>
-                <li class="menu__item">Home</li>
-                <li class="menu__item">Sobre</li>
-                <li class="menu__item">Membros</li>
-                <li class="menu__item">Tour</li>
+                <li class="menu__item">
+                    <a href="#home" class="menu__link">Home</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#sobre" class="menu__link">Sobre</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#membros" class="menu__link">Membros</a>
+                </li>
+                <li class="menu__item">
+                    <a href="#tour" class="menu__link">Tour</a>
+                </li>
             </ul>
 
-            <svg class="menu__icone menu__icone--hamburguer" data-iconeHamburguer
+        <svg class="menu__icone menu__icone--hamburguer" data-iconeHamburguer
             xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 40">
             <rect id="Retângulo_2" data-name="Retângulo 2" width="50" height="10" rx="5" fill="#deaf16" />
             <rect id="Retângulo_3" data-name="Retângulo 3" width="50" height="10" rx="5" transform="translate(0 15)"
@@ -125,7 +130,7 @@
                 </li>
             </ul>
         </section>
-        <section class="conteiner-flex sobre">
+        <section id="sobre" class="conteiner-flex sobre">
             <h1 class="sobre__titulo">Sobre</h1>
             <p class="sobre__conteudo">We have created a fictional band
                 website. Lorem ipsum dolor sit amet,
@@ -148,7 +153,7 @@
                 commodo consequat.
             </p>
         </section>
-        <section class="conteiner-flex membros">
+        <section id="membros" class="conteiner-flex membros">
             <div class="membros__conteudo">
                 <h2 class="membros__titulo">Membros</h2>
                 <div class="membros__card">
@@ -199,7 +204,7 @@
             </div>
             <span class="overlay"></span>
         </section>
-        <section class="conteiner-flex tour">
+        <section id="tour" class="conteiner-flex tour">
         <h2 class="tour__titulo">Tour</h2>
             <div class="conteiner-flex tour__conteiner tour__conteiner--sp">
                 <div class="tour__conteudo">
@@ -263,16 +268,24 @@
         <nav class="rodape__navegacao">
             <h2 class="rodape__titulo">Voltar ao Topo</h2>
             <ul class="rodape__links">
-                <li class="rodape__link">Home</li>
-                <li class="rodape__link">Sobre</li>
-                <li class="rodape__link">Membros</li>
-                <li class="rodape__link">Tour</li>
+                <li class="rodape__item">
+                    <a href="" class="rodape__link">Home</a>
+                </li>
+                <li class="rodape__item">
+                    <a href="" class="rodape__link">Sobre</a>
+                </li>
+                <li class="rodape__item">
+                    <a href="" class="rodape__link">Membros</a>
+                </li>
+                <li class="rodape__item">
+                    <a href="" class="rodape__link">Tour</a>
+                </li>
             </ul>
         </nav>
         <div class="rodape__social">
             <ul class="conteiner-flex">
                 <li><a href="">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="21.626" height="40" viewBox="0 0 21.626 40">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="21" height="40" viewBox="0 0 21 40">
                             <g id="logo-do-facebook" transform="translate(-22.077)">
                                 <path id="Caminho_4" data-name="Caminho 4"
                                     d="M42.889.008,37.7,0c-5.828,0-9.594,3.864-9.594,9.844v4.539H22.893a.816.816,0,0,0-.816.816v6.576a.816.816,0,0,0,.816.816h5.215V39.184a.815.815,0,0,0,.816.816h6.8a.816.816,0,0,0,.816-.816V22.591h6.1a.815.815,0,0,0,.816-.816l0-6.576a.816.816,0,0,0-.816-.816h-6.1V10.535c0-1.849.441-2.788,2.85-2.788h3.494A.816.816,0,0,0,43.7,6.93V.824A.816.816,0,0,0,42.889.008Z"
@@ -289,7 +302,7 @@
                         </svg>
                     </a></li>
                 <li><a href="">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="49.107" height="40" viewBox="0 0 49.107 40">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="49" height="40" viewBox="0 0 49 40">
                             <g id="logotipo-social-do-twitter" transform="translate(0 -9.053)">
                                 <path id="Caminho_6" data-name="Caminho 6"
                                     d="M49.05,13.817a.243.243,0,0,0-.286-.066,19.643,19.643,0,0,1-4.6,1.4A10.209,10.209,0,0,0,47.753,10.1a.244.244,0,0,0-.357-.284,19.689,19.689,0,0,1-6.126,2.364,10.228,10.228,0,0,0-17.388,9.1A28.178,28.178,0,0,1,3.818,10.968a.238.238,0,0,0-.208-.089.243.243,0,0,0-.192.12A10.231,10.231,0,0,0,5.881,24.132a9.767,9.767,0,0,1-3.565-1.153.244.244,0,0,0-.363.208v.131A10.253,10.253,0,0,0,9.136,33.08a9.815,9.815,0,0,1-3.4-.049.244.244,0,0,0-.278.313,10.217,10.217,0,0,0,8.871,7.062A19.641,19.641,0,0,1,2.623,44.223a20.211,20.211,0,0,1-2.35-.138.247.247,0,0,0-.259.159.244.244,0,0,0,.1.288,28.514,28.514,0,0,0,15.423,4.521c17.918,0,28.625-14.555,28.625-28.625q0-.588-.023-1.17a20.379,20.379,0,0,0,4.93-5.148A.244.244,0,0,0,49.05,13.817Z"
@@ -298,7 +311,7 @@
                         </svg>
                     </a></li>
                 <li><a href="">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="56.837" height="40" viewBox="0 0 56.837 40">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="56" height="40" viewBox="0 0 56 40">
                             <g id="XMLID_822_" transform="translate(0 -45.917)">
                                 <path id="XMLID_823_"
                                     d="M54.622,49.351c-2.052-2.439-5.84-3.434-13.074-3.434H15.289c-7.4,0-11.252,1.059-13.3,3.656C0,52.1,0,55.834,0,61v9.84c0,10,2.364,15.08,15.289,15.08h26.26c6.273,0,9.75-.878,12-3.03,2.306-2.207,3.29-5.811,3.29-12.05V61C56.837,55.553,56.683,51.8,54.622,49.351ZM36.49,67.276,24.565,73.508a1.833,1.833,0,0,1-2.683-1.625V59.458a1.833,1.833,0,0,1,2.679-1.627l11.924,6.192a1.833,1.833,0,0,1,0,3.252Z"
@@ -307,18 +320,16 @@
                         </svg>
                     </a></li>
                 <li><a href="">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="40.002" height="40" viewBox="0 0 40.002 40">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40">
                             <g id="logotipo-spotify" transform="translate(0 -0.002)">
-                                <g id="Layer_1_1_" transform="translate(0 0.002)">
-                                    <path id="Caminho_7" data-name="Caminho 7"
-                                        d="M20,0A20,20,0,1,0,40,20,20,20,0,0,0,20,0Zm7.7,29.5a1.511,1.511,0,0,1-.847-.3A20.052,20.052,0,0,0,16.5,26.529a31.3,31.3,0,0,0-6.309.694,6.21,6.21,0,0,1-.986.2,1.248,1.248,0,0,1-1.265-1.257,1.277,1.277,0,0,1,1.088-1.374,33.377,33.377,0,0,1,7.486-.885A22.245,22.245,0,0,1,28.15,26.921a1.331,1.331,0,0,1,.792,1.33A1.246,1.246,0,0,1,27.7,29.5Zm2.179-5.294a1.843,1.843,0,0,1-1-.347,25.359,25.359,0,0,0-12.7-3.213,25.3,25.3,0,0,0-6.528.837,3.357,3.357,0,0,1-.973.223,1.567,1.567,0,0,1-1.562-1.568A1.59,1.59,0,0,1,8.356,18.47a27.617,27.617,0,0,1,7.886-1.093,28.136,28.136,0,0,1,14.281,3.687,1.634,1.634,0,0,1,.913,1.581A1.556,1.556,0,0,1,29.878,24.208Zm2.481-6.156a1.9,1.9,0,0,1-1.03-.308c-3.619-2.171-9.238-3.366-14.671-3.366a30.875,30.875,0,0,0-7.99.96,4.2,4.2,0,0,1-1.025.218,1.875,1.875,0,0,1-1.886-1.911,1.9,1.9,0,0,1,1.4-1.912A33.653,33.653,0,0,1,16.65,10.5c5.873,0,12.052,1.208,16.566,3.858a1.9,1.9,0,0,1,1.03,1.817A1.866,1.866,0,0,1,32.359,18.051Z"
-                                        transform="translate(0 -0.002)" fill="#deaf16" />
-                                </g>
+                                <path id="Caminho_7" data-name="Caminho 7"
+                                    d="M20,0A20,20,0,1,0,40,20,20,20,0,0,0,20,0Zm7.7,29.5a1.511,1.511,0,0,1-.847-.3A20.052,20.052,0,0,0,16.5,26.529a31.3,31.3,0,0,0-6.309.694,6.21,6.21,0,0,1-.986.2,1.248,1.248,0,0,1-1.265-1.257,1.277,1.277,0,0,1,1.088-1.374,33.377,33.377,0,0,1,7.486-.885A22.245,22.245,0,0,1,28.15,26.921a1.331,1.331,0,0,1,.792,1.33A1.246,1.246,0,0,1,27.7,29.5Zm2.179-5.294a1.843,1.843,0,0,1-1-.347,25.359,25.359,0,0,0-12.7-3.213,25.3,25.3,0,0,0-6.528.837,3.357,3.357,0,0,1-.973.223,1.567,1.567,0,0,1-1.562-1.568A1.59,1.59,0,0,1,8.356,18.47a27.617,27.617,0,0,1,7.886-1.093,28.136,28.136,0,0,1,14.281,3.687,1.634,1.634,0,0,1,.913,1.581A1.556,1.556,0,0,1,29.878,24.208Zm2.481-6.156a1.9,1.9,0,0,1-1.03-.308c-3.619-2.171-9.238-3.366-14.671-3.366a30.875,30.875,0,0,0-7.99.96,4.2,4.2,0,0,1-1.025.218,1.875,1.875,0,0,1-1.886-1.911,1.9,1.9,0,0,1,1.4-1.912A33.653,33.653,0,0,1,16.65,10.5c5.873,0,12.052,1.208,16.566,3.858a1.9,1.9,0,0,1,1.03,1.817A1.866,1.866,0,0,1,32.359,18.051Z"
+                                    transform="translate(0 -0.002)" fill="#deaf16" />
                             </g>
                         </svg>
                     </a></li>
                 <li><a href="">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="33.453" height="40" viewBox="0 0 33.453 40">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="33" height="40" viewBox="0 0 33 40">
                             <g id="simbolo-de-nota-musical" transform="translate(-2.617)">
                                 <path id="Caminho_8" data-name="Caminho 8"
                                     d="M36.07,4.414,36.028,0,13.606,4.156l.023,2.434h0V28.682a6.543,6.543,0,1,0,2,5.725H15.7V11.526L33.87,8.194V24.449a6.542,6.542,0,1,0,2,5.725h.078V4.438Zm-2.2,2.572L15.7,10.32V8.19L33.87,4.823Z"
