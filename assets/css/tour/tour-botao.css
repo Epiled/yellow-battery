@@ -1,8 +1,15 @@
-.tour__botao{
+.tour__botao {
     color: var(--banda);
     background-color: black;
     border: 0;
     height: 5rem;
     width: 18rem;
     text-transform: uppercase;
+    transition: background-color .5s, color .5s ;
+    cursor: pointer;
+}
+
+.tour__botao:hover {
+    color: black;
+    background-color: var(--banda);
 }

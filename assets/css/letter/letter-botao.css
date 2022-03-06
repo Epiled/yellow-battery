@@ -7,4 +7,12 @@
     display: block;
     margin: 1rem auto 0 auto;
     text-transform: uppercase;
+    transition: background-color .5s, color .5s ;
+    cursor: pointer;
+}
+
+
+.letter__botao:hover {
+    color: black;
+    background-color: var(--banda);
 }
