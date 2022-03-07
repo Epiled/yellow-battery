@@ -1,3 +1,5 @@
+<img alt="Banner Yellow Battery" title="Banner Yellow Battery" src="./assets/banner-yellow-batery.png" />
+
 <h1 align="center">🟡 🥁 Yellow Battery 🥁 🟡</h1>
 
 <p id="objetivo">Site da Yellow Battery, criando com HTML5, CSS3, JS, PHP e MySQL, usando a técnica de mobile-first, 
@@ -20,7 +22,6 @@
  <a href="#features">Features</a> • 
  <a href="#autor">Autor</a>
 </p>
-
 
 <h3 align="center"> 
 	🚧 Yellow Battery 👷‍ Em construção... 👷‍♀️  🚧
@@ -49,8 +50,7 @@ As seguintes tecnologias foram usadas na construção do projeto:
 <a href="https://blog.rocketseat.com.br/author/thiago/">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/55258483?s=96&v=4" width="100px;" alt=""/>
  <br />
- <sub><b>Felipe Andrade</b></sub></a>
-
+ <sub><b>Felipe De Andrade</b></sub></a>
 
 Feito com ❤️ por Felipe De Andrade 👋🏽 Entre em contato!
 
