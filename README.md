@@ -55,4 +55,4 @@ As seguintes tecnologias foram usadas na construção do projeto:
 Feito com ❤️ por Felipe De Andrade 👋🏽 Entre em contato!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Felipe-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fademendonca/)](https://www.linkedin.com/in/fademendonca/) 
-[![Gmail Badge](https://img.shields.io/badge/-felipedeandrademendonca@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:felipedeandrademendonca@gmail.com)](mailto:felipedeandrademendonca@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-felipedeandrademendonca@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:felipedeandrademendonca@gmail.com)](mailto:felipe.deam98@gmail.com)
