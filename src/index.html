@@ -15,15 +15,17 @@
   <link rel="stylesheet" href="./assets/css/main.css">
 
   <link rel="stylesheet" href="./assets/css/banner/banner.css">
-  <link rel="stylesheet" href="./assets/css/banner/banner-botao.css">
+  <link rel="stylesheet" href="./assets/css/banner/banner-slide.css">
+  <link rel="stylesheet" href="./assets/css/banner/banner-imagem.css">
   <link rel="stylesheet" href="./assets/css/banner/banner-lista.css">
+  <link rel="stylesheet" href="./assets/css/banner/banner-dot.css">
 
   <link rel="stylesheet" href="./assets/css/letter/letter.css">
-  <link rel="stylesheet" href="./assets/css/letter/letter-botao.css">
-  <link rel="stylesheet" href="./assets/css/letter/letter-campo.css">
+  <link rel="stylesheet" href="./assets/css/letter/letter-titulo.css">
   <link rel="stylesheet" href="./assets/css/letter/letter-conteudo.css">
   <link rel="stylesheet" href="./assets/css/letter/letter-label.css">
-  <link rel="stylesheet" href="./assets/css/letter/letter-titulo.css">
+  <link rel="stylesheet" href="./assets/css/letter/letter-campo.css">
+  <link rel="stylesheet" href="./assets/css/letter/letter-botao.css">
 
   <link rel="stylesheet" href="./assets/css/membros/membros.css">
   <link rel="stylesheet" href="./assets/css/membros/membros-card.css">
@@ -106,7 +108,7 @@
   </header>
 
   <main>
-    <section class="banner">
+    <!-- <section class="banner">
       <ul class="conteiner-flex banner__lista">
         <li>
           <button type="button" class="banner__botao">
@@ -134,28 +136,43 @@
           </button>
         </li>
       </ul>
+    </section> -->
+
+    <section class="banner slideshow-container">
+      <div class="banner__slide fade" data-slide>
+        <img src="./assets/imgs/guitar.jpg" class="banner__imagem">
+      </div>
+
+      <div class="banner__slide fade" data-slide>
+        <img src="./assets/imgs/guitar_2.jpg" class="banner__imagem">
+      </div>
+
+      <div class="banner__slide fade" data-slide>
+        <img src="./assets/imgs/keep_calm.png" class="banner__imagem">
+      </div>
+
+      <ul class="conteiner-flex banner__lista">
+        <li class="banner__dot" data-dot>
+          <span class="esconder">1</span>
+        </li>
+        <li class="banner__dot" data-dot>
+          <span class="esconder">2</span>
+        </li>
+        <li class="banner__dot" data-dot>
+          <span class="esconder">3</span>
+        </li>
+      </ul>
     </section>
+
     <section id="sobre" class="conteiner-flex sobre">
       <h1 class="sobre__titulo">Sobre</h1>
-      <p class="sobre__conteudo">We have created a fictional band
-        website. Lorem ipsum dolor sit amet,
-        consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et
-        dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation
-        ullamco laboris nisi ut aliquip ex ea
-        commodo consequat. Duis aute irure
-        dolor in reprehenderit in voluptate velit
-        esse cillum dolore eu fugiat nulla
-        pariatur. Excepteur sint occaecat
-        cupidatat non proident, sunt in culpa qui
-        officia deserunt mollit anim id est
-        laborum consectetur adipiscing elit, sed
-        do eiusmod tempor incididunt ut labore
-        et dolore magna aliqua. Ut enim ad
-        minim veniam, quis nostrud exercitation
-        ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+      <p class="sobre__conteudo">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+        non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do
+        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+        ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
     </section>
     <section id="membros" class="conteiner-flex membros">
@@ -356,7 +373,8 @@
     <p class="rodape__copyright">© 2020 Banda</p>
   </footer>
   <!-- build:js ./assets/js/index.min.js -->
-  <script src="assets/js/main.js"></script>
+  <script src="./assets/js/main.js"></script>
+  <script src="./assets/js/banner.js"></script>
   <!-- endbuild -->
 </body>
 
