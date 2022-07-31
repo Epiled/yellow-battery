@@ -1,12 +1,16 @@
-.tour__ingressos{
-    width: 38rem;
+.tour__ingressos {
+  max-width: 38rem;
+  gap: 2rem;
+  margin: 0 auto;
 }
 
-@media screen and (min-width: 834px){
-    .tour__ingressos{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        width: auto;
-    }
+@media screen and (min-width: 834px) {
+  .tour__ingressos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: auto;
+    margin: 0;
+    gap: 0;
+  }
 }
