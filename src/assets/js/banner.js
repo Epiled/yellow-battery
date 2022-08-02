@@ -4,7 +4,6 @@ let dots = document.querySelectorAll("[data-dot]");
 let timer;
 
 function showSlides() {
-  let i;
   slideIndex++;
   if (slideIndex > slides.length) {slideIndex = 1} 
   resetIndex(slideIndex);
