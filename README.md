@@ -3,7 +3,7 @@
 <h1 align="center">🟡 🥁 Yellow Battery 🥁 🟡</h1>
 
 <p id="objetivo">Site da Yellow Battery, criando com HTML5, CSS3, JS, PHP e MySQL, usando a técnica de mobile-first, 
-  o site é responsável e também possui um dashbord para atualizar certos dados da página como datas de shows</p>
+  o site é responsável e também possui um dashboard para atualizar certos dados da página como datas de shows</p>
 
 ![Badge](https://img.shields.io/github/last-commit/Epiled/yellow-battery?style=for-the-badge)
 ![Badge](https://img.shields.io/github/languages/code-size/Epiled/yellow-battery?style=for-the-badge)
