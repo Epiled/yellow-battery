@@ -1,58 +1,100 @@
-<img alt="Banner Yellow Battery" title="Banner Yellow Battery" src="./assets/banner-yellow-batery.png" />
+![Social Preview](./src/assets/banner-yellow-batery.png)
 
-<h1 align="center">🟡 🥁 Yellow Battery 🥁 🟡</h1>
+<h1 align="center"> 🟡 🥁 Yellow Battery 🥁 🟡 </h1>
 
-<p id="objetivo">Site da Yellow Battery, criando com HTML5, CSS3, JS, PHP e MySQL, usando a técnica de mobile-first, 
-  o site é responsável e também possui um dashboard para atualizar certos dados da página como datas de shows</p>
+![Vercel Deploy](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel)
+![GitHub release](https://img.shields.io/github/v/release/Epiled/yellow-battery?style=for-the-badge)
+![GitHub license](https://img.shields.io/github/license/Epiled/yellow-battery?style=for-the-badge)
 
-![Badge](https://img.shields.io/github/last-commit/Epiled/yellow-battery?style=for-the-badge)
-![Badge](https://img.shields.io/github/languages/code-size/Epiled/yellow-battery?style=for-the-badge)
-![Badge](https://img.shields.io/github/languages/count/Epiled/yellow-battery?style=for-the-badge)
-![Bagde](https://img.shields.io/badge/repo%20status-WIP-yellow?style=for-the-badge)
+![GitHub last commit](https://img.shields.io/github/last-commit/Epiled/yellow-battery?style=for-the-badge)
+![Code Size](https://img.shields.io/github/languages/code-size/Epiled/yellow-battery?style=for-the-badge)
 
-![Badge](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![Badge](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Badge](https://img.shields.io/badge/-JS-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
-![Badge](https://img.shields.io/badge/-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Badge](https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![PHP](https://img.shields.io/badge/-PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-<p align="center">
- <a href="#objetivo">Objetivo</a> •
- <a href="#tecnologias">Tecnologias</a> • 
- <a href="#features">Features</a> • 
- <a href="#autor">Autor</a>
-</p>
+## 📑 Table of Contents
 
-<h3 align="center"> 
-	🚧 Yellow Battery 👷‍ Em construção... 👷‍♀️  🚧
-</h3>
+- [📑 Table of Contents](#-table-of-contents)
+- [📖 Overview](#-overview)
+- [🛠️ Technologies](#-technologies)
+- [⚡ Performance & PWA](#-performance--pwa)
+- [🚀 Demo](#-demo)
+- [📦 Install and Use](#-install-and-use)
+- [📂 File Structure](#-file-structure)
+- [🎨 Reference & Inspiration](#-reference--inspiration)
+- [👨‍💻 Author and Contact](#%E2%80%8D-author-and-contact)
 
-<h2 id="features"> 📱 Features </h2>
+## 📖 Overview
 
-- [ ] Cadastro de usuário
-- [ ] Cadastro de cliente
-- [ ] Cadastro de produtos
+Yellow Battery is a full-stack web application developed for a fictional music band, combining a promotional website with a custom content management dashboard.
 
-<h2 id="tecnologias"> 🛠 Tecnologias </h2>
+The platform allows administrators to update concert dates and other site information through a dedicated management interface, while visitors can explore band content through a responsive, mobile-first experience.
 
-As seguintes tecnologias foram usadas na construção do projeto:
+Built with HTML5, CSS3, JavaScript, PHP, and MySQL, the project demonstrates core concepts of responsive design, database-driven applications, server-side development, and content management workflows.
 
-<ul>
-  <li><a href="https://www.w3schools.com/html/default.asp" target="_blank">HTML5</a></li>
-  <li><a href="https://www.w3schools.com/css/default.asp" target="_blank">CSS3</a></li>
-  <li><a href="https://www.w3schools.com/js/default.asp" target="_blank">JavaScript</a></li>
-  <li><a href="https://www.php.net/" target="_blank">PHP</a></li>
-  <li><a href="https://www.mysql.com/" target="_blank">MySQL</a></li>
-</ul>
+## 🛠 Technologies
 
-### Autor
+The following technologies were used to build this project:
 
-<a href="https://blog.rocketseat.com.br/author/thiago/">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/55258483?s=96&v=4" width="100px;" alt=""/>
- <br />
- <sub><b>Felipe De Andrade</b></sub></a>
+- [PHP](https://www.php.net/)
+- [MySQL](https://www.mysql.com/)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-Feito com ❤️ por Felipe De Andrade 👋🏽 Entre em contato!
+## ⚡ Performance & PWA
 
-[![Linkedin Badge](https://img.shields.io/badge/-Felipe-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/fademendonca/)](https://www.linkedin.com/in/fademendonca/) 
-[![Gmail Badge](https://img.shields.io/badge/-felipedeandrademendonca@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:felipedeandrademendonca@gmail.com)](mailto:felipe.deam98@gmail.com)
+Coming Soon!
+
+## 🚀 Demo
+
+Access the live application below to interact with the interface and run your own performance tests
+
+Yellow Battery: [https://epiled.github.io/yellow-battery/](https://epiled.github.io/yellow-battery/)
+
+### Desktop
+
+Coming Soon!
+
+### Mobile
+
+Coming Soon!
+
+## 📦 Install and Use
+
+This project currently operates without a local development server or build step, meaning it can be run directly from your file system.
+
+1. Clone the repository:
+```bash
+git clone https://github.com/Epiled/yellow-battery.git
+cd yellow-battery
+```
+
+### Local Execution
+
+To view and interact with the project, simply open the index.html file in your preferred web browser. You can do this by double-clicking the file in your file explorer or dragging it into an open browser tab.
+
+## 📂 File Structure
+
+Coming Soon!
+
+## 🎨 Reference & Inspiration
+
+Coming Soon!
+
+## 👨‍💻 Author and Contact
+
+<a href="https://github.com/Epiled">
+  <img src="https://user-images.githubusercontent.com/55258483/178338085-2cea8bf2-6d0c-409a-9d0e-23359b7d303e.png" alt="Felindo">
+  <br />
+  <sub><b>Felipe De Andrade</b></sub>
+</a>
+
+Made with ❤️ by Felipe De Andrade 👋🏽 Get in touch!
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fademendonca/)
+[![CodePen](https://img.shields.io/badge/CodePen-000000?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/epiled)
+[![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:felipe.deam98@gmail.com)
