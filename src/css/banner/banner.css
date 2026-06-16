@@ -1,7 +1,7 @@
-.banner{
-    height: calc(100vh - var(--menu__altura));
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
+.banner {
+  height: calc(100vh - var(--menu__altura));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
 }

@@ -6,7 +6,9 @@
   max-width: 18rem;
   width: 100%;
   text-transform: uppercase;
-  transition: background-color .5s, color .5s;
+  transition:
+    background-color 0.5s,
+    color 0.5s;
   cursor: pointer;
 }
 
