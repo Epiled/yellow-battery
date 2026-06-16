@@ -1,25 +1,26 @@
 {
-  "name": "spotify",
+  "name": "yellow-battery",
   "version": "1.0.0",
-  "description": "Automatizador de processos",
-  "main": "index.js",
+  "description": "Yellow Battery band website",
+  "main": "index.html",
   "scripts": {
-    "test": "gulp-teste"
+    "dev": "browser-sync start --server --files '*.html, css/*.css, js/*.js'"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Epiled/Spotify.git"
+    "url": "git+https://github.com/Epiled/yellow-battery.git"
   },
   "keywords": [
-    "spotify"
+    "yellow-battery"
   ],
-  "author": "Felipe De Andrade Mendonça",
-  "license": "ISC",
+  "author": "Felipe De Andrade (https://github.com/Epiled)",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Epiled/Spotify/issues"
+    "url": "https://github.com/Epiled/yellow-battery/issues"
   },
-  "homepage": "https://github.com/Epiled/Spotify#readme",
+  "homepage": "https://github.com/Epiled/yellow-battery#readme",
   "devDependencies": {
+    "browser-sync": "^3.0.4",
     "del": "^6.1.1",
     "gulp": "^4.0.2",
     "gulp-clean": "^0.4.0",
