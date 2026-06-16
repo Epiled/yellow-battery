@@ -1,0 +1,14 @@
+.menu__icone {
+  width: 5rem;
+}
+
+.menu__icone--bateria {
+  width: 6rem;
+  transform: rotateZ(45deg);
+}
+
+@media screen and (min-width: 834px) {
+  .menu__icone--hamburguer {
+    display: none;
+  }
+}

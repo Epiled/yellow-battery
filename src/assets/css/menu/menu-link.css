@@ -1,9 +1,0 @@
-.menu__link {
-    color: var(--banda);
-    text-decoration: none;
-    transition: color .5s;
-}
-
-.menu__link:hover {
-    color: var(--banda-escuro);
-}

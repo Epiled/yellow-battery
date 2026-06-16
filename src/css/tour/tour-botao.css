@@ -1,0 +1,24 @@
+.tour__botao {
+  color: var(--banda);
+  background-color: black;
+  border: 0;
+  height: 5rem;
+  max-width: 18rem;
+  width: 100%;
+  text-transform: uppercase;
+  transition:
+    background-color 0.5s,
+    color 0.5s;
+  cursor: pointer;
+}
+
+.tour__botao:hover {
+  color: black;
+  background-color: var(--banda);
+}
+
+@media screen and (min-width: 834px) {
+  .tour__botao {
+    width: 18rem;
+  }
+}
