@@ -11,15 +11,15 @@
 }
 
 .tour__conteiner--sp {
-  background-image: url(../../imgs/sao-paulo.jpg);
+  background-image: url(../../assets/img/sao-paulo.jpg);
 }
 
 .tour__conteiner--rj {
-  background-image: url(../../imgs/rio-de-janeiro.jpg);
+  background-image: url(../../assets/img/rio-de-janeiro.jpg);
 }
 
 .tour__conteiner--bh {
-  background-image: url(../../imgs/bahia.jpg);
+  background-image: url(../../assets/img/bahia.jpg);
 }
 
 @media screen and (min-width: 834px) {
