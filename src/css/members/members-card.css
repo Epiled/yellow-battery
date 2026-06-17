@@ -1,0 +1,18 @@
+.members__card {
+  background: var(--color-neutral-white);
+  width: 27rem;
+  padding: 2rem;
+  box-sizing: border-box;
+  font-size: 2rem;
+  margin-bottom: 3rem;
+}
+
+.members__card:last-child {
+  margin: 0;
+}
+
+@media screen and (min-width: 834px) {
+  .members__card {
+    margin-bottom: 0;
+  }
+}

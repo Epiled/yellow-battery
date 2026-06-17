@@ -1,0 +1,13 @@
+.letter__input {
+  background-color: var(--color-neutral-black-50);
+  border-color: var(--color-brand-primary);
+  color: var(--color-neutral-white);
+  display: block;
+  height: 5rem;
+  width: 100%;
+  font-size: 2.4rem;
+  box-sizing: border-box;
+  margin-bottom: 2rem;
+  padding: 1rem;
+  border-style: solid;
+}

@@ -1,0 +1,17 @@
+.members__image {
+  height: 23rem;
+  width: 23rem;
+  background-size: cover;
+}
+
+.members__image--cheila {
+  background-image: url(../../assets/img/singer.jpg);
+}
+
+.members__image--dust {
+  background-image: url(../../assets/img/drum.jpg);
+}
+
+.members__image--adam {
+  background-image: url(../../assets/img/music.jpg);
+}

@@ -1,0 +1,5 @@
+.menu {
+  background: var(--color-neutral-black);
+  height: var(--menu-height);
+  padding: 0 1rem;
+}

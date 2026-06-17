@@ -1,0 +1,7 @@
+.banner {
+  height: calc(100vh - var(--menu-height));
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}

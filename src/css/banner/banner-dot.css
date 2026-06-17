@@ -1,0 +1,19 @@
+.banner__dot {
+  background-color: var(--color-dot-20);
+  border: 0.2rem solid var(--color-brand-primary);
+  border-radius: 100%;
+  box-sizing: border-box;
+  height: 5rem;
+  width: 5rem;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+.banner__dot:hover {
+  background-color: var(--color-brand-primary-dark);
+}
+
+.banner__dot--active,
+.banner__dot:focus {
+  background-color: var(--color-focus-50);
+}

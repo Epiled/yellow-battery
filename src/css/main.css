@@ -1,0 +1,57 @@
+:root {
+  font-size: 62.5%;
+
+  --menu-height: 6.5rem;
+
+  --color-brand-primary: #deaf16;
+  --color-brand-primary-dark: #81660c;
+
+  --color-focus-50: #deaf1680;
+  --color-dot-20: #f2c01a33;
+
+  --color-neutral-black: #000000;
+  --color-neutral-black-50: #00000080;
+
+  --color-neutral-white: #ffffff;
+
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+  background: var(--color-neutral-black);
+  scroll-behavior: smooth;
+}
+
+body {
+  max-width: 1920px;
+  background: var(--color-neutral-white);
+  margin: auto;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  scroll-behavior: smooth;
+}
+
+.hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 0.1rem;
+  margin: -1rem;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 0.1rem;
+}
+
+.overlay {
+  background-color: var(--color-neutral-black);
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transition: 200ms all;
+}
