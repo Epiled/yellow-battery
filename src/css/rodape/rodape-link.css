@@ -1,9 +1,0 @@
-.rodape__link {
-  color: var(--banda);
-  text-decoration: none;
-  transition: color 0.5s;
-}
-
-.rodape__link:hover {
-  color: var(--banda-escuro);
-}

@@ -1,0 +1,24 @@
+.tour__button {
+  color: var(--color-brand-primary);
+  background-color: var(--color-neutral-black);
+  border: 0;
+  height: 5rem;
+  max-width: 18rem;
+  width: 100%;
+  text-transform: uppercase;
+  transition:
+    background-color 0.5s,
+    color 0.5s;
+  cursor: pointer;
+}
+
+.tour__button:hover {
+  color: var(--color-neutral-black);
+  background-color: var(--color-brand-primary);
+}
+
+@media screen and (min-width: 834px) {
+  .tour__button {
+    width: 18rem;
+  }
+}

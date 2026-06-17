@@ -1,0 +1,35 @@
+.tour__container {
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  position: relative;
+  padding: 4rem 0;
+  justify-content: space-around;
+  background-size: cover;
+  background-position: bottom;
+  width: -webkit-fill-available;
+}
+
+.tour__container--sp {
+  background-image: url(../../assets/img/sao-paulo.jpg);
+}
+
+.tour__container--rj {
+  background-image: url(../../assets/img/rio-de-janeiro.jpg);
+}
+
+.tour__container--bh {
+  background-image: url(../../assets/img/bahia.jpg);
+}
+
+@media screen and (min-width: 834px) {
+  .tour__container {
+    padding: 4rem;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .tour__container {
+    width: 50%;
+  }
+}

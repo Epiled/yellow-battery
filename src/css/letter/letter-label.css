@@ -2,5 +2,5 @@
   font-size: 3rem;
   margin-bottom: 1rem;
   display: block;
-  color: white;
+  color: var(--color-neutral-white);
 }

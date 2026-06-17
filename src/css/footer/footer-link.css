@@ -1,9 +1,9 @@
-.menu__link {
+.footer__link {
   color: var(--color-brand-primary);
   text-decoration: none;
   transition: color 0.5s;
 }
 
-.menu__link:hover {
+.footer__link:hover {
   color: var(--color-brand-primary-dark);
 }

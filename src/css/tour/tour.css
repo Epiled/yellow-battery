@@ -2,8 +2,8 @@
   align-items: center;
   flex-direction: column;
   padding: 4rem 0 0 0;
-  background-color: black;
-  color: white;
+  background-color: var(--color-neutral-black);
+  color: var(--color-neutral-white);
   box-sizing: content-box;
 }
 
