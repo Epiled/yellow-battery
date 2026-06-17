@@ -1,0 +1,9 @@
+.members {
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../../assets/img/las-vegas.jpg);
+  flex-direction: column;
+  padding: 4rem 0;
+  position: relative;
+}

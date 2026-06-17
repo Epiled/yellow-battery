@@ -1,0 +1,5 @@
+.letter__content {
+  z-index: 1;
+  width: 100%;
+  max-width: 38rem;
+}

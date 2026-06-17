@@ -1,5 +1,5 @@
 .menu {
-  background: #000;
-  height: var(--menu__altura);
+  background: var(--color-neutral-black);
+  height: var(--menu-height);
   padding: 0 1rem;
 }

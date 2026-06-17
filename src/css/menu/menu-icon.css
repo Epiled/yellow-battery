@@ -1,0 +1,14 @@
+.menu__icon {
+  width: 5rem;
+}
+
+.menu__icon--drums {
+  width: 6rem;
+  transform: rotateZ(45deg);
+}
+
+@media screen and (min-width: 834px) {
+  .menu__icon--toggle {
+    display: none;
+  }
+}

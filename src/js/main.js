@@ -1,10 +1,10 @@
-const iconeHamburguer = document.querySelector("[data-iconeHamburguer]");
-const menuLista = document.querySelector("[data-menuLista]");
+const iconToggle = document.querySelector("[data-toggle]");
+const menuList = document.querySelector("[data-menuList]");
 
-iconeHamburguer.addEventListener("click", function () {
-  menuLista.classList.toggle("menu__lista--show");
+iconToggle.addEventListener("click", function () {
+  menuList.classList.toggle("menu__list--show");
 });
 
-menuLista.addEventListener("click", function () {
-  menuLista.classList.toggle("menu__lista--show");
+menuList.addEventListener("click", function () {
+  menuList.classList.toggle("menu__list--show");
 });

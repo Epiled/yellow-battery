@@ -1,6 +1,6 @@
 .banner__dot {
-  background-color: rgba(242, 191, 25, 20%);
-  border: 0.2rem solid var(--banda);
+  background-color: var(--color-dot-20);
+  border: 0.2rem solid var(--color-brand-primary);
   border-radius: 100%;
   box-sizing: border-box;
   height: 5rem;
@@ -10,10 +10,10 @@
 }
 
 .banner__dot:hover {
-  background-color: var(--banda-escuro);
+  background-color: var(--color-brand-primary-dark);
 }
 
 .banner__dot--active,
 .banner__dot:focus {
-  background-color: var(--banda--focus);
+  background-color: var(--color-focus-50);
 }

@@ -1,0 +1,7 @@
+.tour__title {
+  margin-bottom: 4rem;
+  font-size: 4rem;
+  color: var(--color-brand-primary);
+  text-align: center;
+  width: 100%;
+}

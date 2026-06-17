@@ -1,8 +1,0 @@
-.rodape__icone {
-  fill: var(--banda);
-  transition: fill 0.5s;
-}
-
-.rodape__icone:hover {
-  fill: var(--banda-escuro);
-}
