@@ -107,7 +107,9 @@ yellow-battery/
 
 ## 🎨 Reference & Inspiration
 
-Coming Soon!
+### Inspiration
+
+* [Lindsey Stirling](https://www.lindseystirling.com/)
 
 ## 👨‍💻 Author and Contact
 
