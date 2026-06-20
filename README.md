@@ -51,17 +51,17 @@ Coming Soon!
 
 ## 🚀 Demo
 
-Access the live application below to interact with the interface and run your own performance tests
+Access the live application below to interact with the interface and run your own performance tests.
 
 Yellow Battery: [https://yellow-battery.vercel.app/](https://yellow-battery.vercel.app/)
 
 ### Desktop
 
-Coming Soon!
+[desktop.webm](https://github.com/user-attachments/assets/0be210f1-6b5e-41c5-bc39-1d583df8c2f4)
 
 ### Mobile
 
-Coming Soon!
+[mobile.webm](https://github.com/user-attachments/assets/4486874f-c87a-4109-bb0e-56a423971fe2)
 
 ## 📦 Install and Use
 
