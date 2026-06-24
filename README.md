@@ -1,4 +1,4 @@
-![Social Preview](./design/github/social-preview.png)
+![Social Preview](./design/github/social-preview/social-preview.png)
 
 <h1 align="center"> 🟡 🥁 Yellow Battery 🥁 🟡 </h1>
 
@@ -47,7 +47,7 @@ The following technologies were used to build this project:
 
 ## ⚡ Performance & PWA
 
-Coming Soon!
+![Lighthouse Performance](./design/github/lighthouse-report/lighthouse-report-light.png)
 
 ## 🚀 Demo
 
@@ -65,7 +65,7 @@ Yellow Battery: [https://yellow-battery.vercel.app/](https://yellow-battery.verc
 
 ## 📦 Install and Use
 
-This project currently operates without a local development server or build step, meaning it can be run directly from your file system.
+**Prerequisites:** Node.js (v22.x) or higher installed.
 
 1. Clone the repository:
 ```bash
